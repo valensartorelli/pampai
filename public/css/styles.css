@@ -449,6 +449,11 @@ header .redes a svg:hover{
     margin-bottom: 0;
 }
 
+#contacto .footer .redes,
+#contacto .footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 /* XSMALL */
 @media screen and (max-width:576px){
