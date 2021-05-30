@@ -54,6 +54,13 @@ header .redes a svg:hover{
     fill: #b0d154;
 }
 
+#contacto header .redes{
+    margin:0;
+}
+#contacto header .redes a{
+    display: inline-block;
+}
+
 /* SLIDER */
 #carouselExampleIndicators{
     position: relative;
