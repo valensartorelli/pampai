@@ -54,6 +54,16 @@ header .redes a svg:hover{
     fill: #b0d154;
 }
 
+/* MENU ACTIVO */
+#quienes-somos .item1 a,
+#productos .item2 a,
+#nuestros-clientes .item3 a,
+#construccion-sustentable .item4 a,
+#presupuestos .item5 a,
+#contacto .item6 a{
+    color:#b0d154;
+}
+
 #contacto header .redes{
     margin:0;
 }
@@ -250,7 +260,8 @@ header .redes a svg:hover{
 
 #productos .img h1,
 #presupuestos .img h1,
-#contacto .img h1{
+#contacto .img h1,
+#nuestros-clientes .img h1{
     position: absolute;
     bottom: 0;
     left: 50%;
