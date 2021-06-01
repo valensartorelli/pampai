@@ -77,7 +77,8 @@ header .redes a svg:hover{
 }
 
 #carouselExampleIndicators .carousel-item img{
-    height: 100vh;
+    height: calc(100vh - 141px);
+    width: 100%;
 }
 
 #carouselExampleIndicators .carousel-item p{
@@ -190,6 +191,7 @@ header .redes a svg:hover{
 .modulo-qs .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .modulo-qs h2{
@@ -491,5 +493,33 @@ header .redes a svg:hover{
 }
 /* X-LARGE */
 @media screen and (min-width:1400px){
-    
+    .img .textos{
+        width: 30%;
+    }
+    .img .textos p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1700px){
+    .img .textos{
+        width: 25%;
+    }
+    .img .textos p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .presupuestos p, .presupuestos ol{
+        font-size: 16px;
+    }
+    .modulo-qs h2{
+        margin-bottom: 0;
+    }
+    .modulo-qs p{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .modulo-qs {
+        padding: 60px 0;
+    }
 }
