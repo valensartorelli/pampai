@@ -658,7 +658,7 @@ header .redes a svg:hover{
     .presupuestos-xs p {
         font-size: 10px;
         color: #606060;
-        text-align: center;
+        text-align: left;
         margin-bottom: 0;
     }
     .presupuestos-xs .accesos {
@@ -666,7 +666,7 @@ header .redes a svg:hover{
         justify-content: center;
     }
     .presupuestos-xs .accesos a {
-        padding: 0 13px;
+        padding: 0 0 0 13px;
         color: transparent;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
