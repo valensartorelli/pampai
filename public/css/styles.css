@@ -527,9 +527,15 @@ header .redes a svg:hover{
 
 /* XSMALL */
 @media screen and (max-width:576px){
-    .pre-footer .logos{
-        flex-direction: column;
+    .pre-footer .logos,
+    .pre-footer .logos2 {
+        flex-direction: row;
+        display: flex;
         align-items: center;
+        justify-content: space-evenly;
+    }
+    .pre-footer .logos{
+        margin-top: 35px;
     }
     .header-xs{
         padding: 15px 0;
@@ -555,23 +561,62 @@ header .redes a svg:hover{
         color: #ffffff;
         text-transform: uppercase;
     }
+    .construccion-sustentable a{
+        padding: 26px 0;
+    }
+    .modulo-qs h2{
+        font-size: 20px;
+    }
+    .modulo-qs p{
+        font-size: 12px;
+    }
+    .imagen-destacada {
+        background-image: url(img/destacada-pampa-ingenieria.jpg);
+        background-attachment: initial;
+        background-position: center center;
+        height: 400px;
+        background-size: cover;
+    }
     .pre-footer .logos img {
         margin: 0 25px 30px;
     }
     .pre-footer {
-        padding: 60px 0 40px;
+        padding: 40px 0 40px;
     }
     .footer{
         flex-direction: column;
     }
     .footer div{
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .footer .redes img{
         margin: 0 5px;
     }
     .footer .redes img {
         margin: 25px 15px 0;
+    }
+    .presupuestos-xs{
+        display: flex!important;
+        justify-content: space-between;
+        padding: 25px 20px;
+    }
+    .presupuestos-xs h2{
+        font-size: 18px;
+    }
+    .presupuestos-xs h2 br{
+        display: none;
+    }
+    .presupuestos-xs img{
+        width: 35px;
+    }
+    .presupuestos-xs .accesos a{
+        text-align: center;
+    }
+    .presupuestos-xs h2{
+        font-size: 16px;
+    }
+    .presupuestos-xs p{
+        text-align: left;
     }
 
 }
@@ -601,20 +646,20 @@ header .redes a svg:hover{
         color: #ffffff;
         text-transform: uppercase;
     }
-    .presupuestos-xs{
-        padding: 25px 0 10px;
-    }
     .presupuestos-xs h2 {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 0.05em;
         color: #b8cc4f;
         text-transform: uppercase;
-        text-align: center;
+        text-align: left;
+        padding-top: 5px;
+        margin-bottom: 4px;
     }
     .presupuestos-xs p {
         font-size: 10px;
         color: #606060;
         text-align: center;
+        margin-bottom: 0;
     }
     .presupuestos-xs .accesos {
         display: flex;
@@ -628,6 +673,15 @@ header .redes a svg:hover{
         -ms-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
+    }
+    .presupuestos-xs .accesos a p{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .redes{
+        justify-content: center;
     }
 }
 /* MEDIUM */
@@ -711,7 +765,7 @@ header .redes a svg:hover{
         font-size: 18px;
     }
     .construccion-sustentable p {
-        font-size: 20px;
+        font-size: 16px;
     }
     .modulo-qs {
         padding: 45px 15px;
@@ -735,6 +789,7 @@ header .redes a svg:hover{
         background-color: #212529!important;
         height: calc(100vh - 70px);
     }
+    
 }
 /* X-LARGE */
 @media screen and (min-width:1400px){
