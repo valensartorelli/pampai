@@ -601,6 +601,34 @@ header .redes a svg:hover{
         color: #ffffff;
         text-transform: uppercase;
     }
+    .presupuestos-xs{
+        padding: 25px 0 10px;
+    }
+    .presupuestos-xs h2 {
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: #b8cc4f;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .presupuestos-xs p {
+        font-size: 10px;
+        color: #606060;
+        text-align: center;
+    }
+    .presupuestos-xs .accesos {
+        display: flex;
+        justify-content: center;
+    }
+    .presupuestos-xs .accesos a {
+        padding: 0 13px;
+        color: transparent;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
 }
 /* MEDIUM */
 @media screen and (max-width:991px){
