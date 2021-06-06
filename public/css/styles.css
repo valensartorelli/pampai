@@ -599,6 +599,7 @@ header .redes a svg:hover{
         display: flex!important;
         justify-content: space-between;
         padding: 25px 20px;
+        align-items: center;
     }
     .presupuestos-xs h2{
         font-size: 18px;
@@ -648,7 +649,7 @@ header .redes a svg:hover{
     }
     .presupuestos-xs h2 {
         font-size: 16px;
-        letter-spacing: 0.05em;
+        letter-spacing: 0em;
         color: #b8cc4f;
         text-transform: uppercase;
         text-align: left;
