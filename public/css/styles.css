@@ -509,7 +509,30 @@ header .redes a svg:hover{
 }
 /* SMALL */
 @media screen and (max-width:767px){
-    
+    .header-xs{
+        padding: 15px 0;
+    }
+    .header-xs .logo-xs{
+        padding-left: 15px;
+    }
+    .header-xs .navbar-dark{
+        float: right;
+        padding-right: 15px;
+    }
+    #carouselExampleIndicators .carousel-item p{
+        font-size: 25px;
+    }
+    #navbarToggleExternalContent{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .header-xs .nav{
+        flex-direction: column;
+    }
+    .header-xs .nav-link{
+        color: #ffffff;
+        text-transform: uppercase;
+    }
 }
 /* MEDIUM */
 @media screen and (max-width:991px){
