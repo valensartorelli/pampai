@@ -555,6 +555,24 @@ header .redes a svg:hover{
         color: #ffffff;
         text-transform: uppercase;
     }
+    .pre-footer .logos img {
+        margin: 0 25px 30px;
+    }
+    .pre-footer {
+        padding: 60px 0 40px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer div{
+        margin-bottom: 10px;
+    }
+    .footer .redes img{
+        margin: 0 5px;
+    }
+    .footer .redes img {
+        margin: 25px 15px 0;
+    }
 
 }
 /* SMALL */
@@ -665,13 +683,13 @@ header .redes a svg:hover{
         font-size: 18px;
     }
     .construccion-sustentable p {
-        font-size: 25px;
+        font-size: 20px;
     }
     .modulo-qs {
         padding: 45px 15px;
     }
     .modulo-qs h2 {
-        font-size: 45px;
+        font-size: 30px;
         text-align: center;
         margin-right: 0;
         margin-bottom: 15px;
