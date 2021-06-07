@@ -54,6 +54,10 @@ header .redes a svg:hover{
     fill: #b0d154;
 }
 
+.header-xs {
+    background-color: rgba(0,0,0,0.3);
+}
+
 /* MENU ACTIVO */
 #quienes-somos .item1 a,
 #productos .item2 a,
@@ -181,7 +185,6 @@ header .redes a svg:hover{
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 0;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.45);
 }
 
 /* DESTACADO QUIENES SOMOS */
@@ -470,6 +473,10 @@ header .redes a svg:hover{
     margin-bottom: 0;
 }
 
+.footer .telefono a{
+    color: #ffffff;
+}
+
 #contacto .footer .redes,
 #contacto .footer p{
     margin-top: 0;
@@ -678,11 +685,53 @@ header .redes a svg:hover{
     .presupuestos-xs .accesos a p{
         text-align: center;
     }
+    .presupuestos-xs{
+        display: flex!important;
+        justify-content: space-between;
+        padding: 25px 20px;
+        align-items: center;
+    }
+    .presupuestos-xs h2{
+        font-size: 18px;
+    }
+    .presupuestos-xs h2 br{
+        display: none;
+    }
+    .presupuestos-xs img{
+        width: 35px;
+    }
+    .presupuestos-xs .accesos a{
+        text-align: center;
+    }
+    .presupuestos-xs h2{
+        font-size: 16px;
+    }
+    .presupuestos-xs p{
+        text-align: left;
+    }
+    .pre-footer .logos,
+    .pre-footer .logos2 {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pre-footer .logos{
+        margin-top: 35px;
+    }
+    .pre-footer .logos2{
+        margin-top: 20px;
+    }
     .footer{
         text-align: center;
+        flex-direction: column;
     }
     .footer .redes{
         justify-content: center;
+        margin-top: 25px;
+    }
+    .footer .redes img{
+        margin: 0 10px;
     }
 }
 /* MEDIUM */
@@ -722,14 +771,36 @@ header .redes a svg:hover{
     }
     #carouselExampleIndicators .carousel-item p{
         left: 75px;
-        width: 65%;
+        width: 55%;
+        top: 50%;
     }
     .presupuesto{
         right: 20px;
         top: 50%;
     }
-    #carouselExampleIndicators .carousel-item p{
-        top: 50%;
+    .pre-footer .logos,
+    .pre-footer .logos2 {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pre-footer .logos{
+        margin-top: 35px;
+    }
+    .pre-footer .logos2{
+        margin-top: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .redes{
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .footer .redes img{
+        margin: 0 10px;
     }
 }
 /* LARGE */
@@ -740,7 +811,7 @@ header .redes a svg:hover{
     .logo-xs img{
         width: 120px;
     }
-    .nav-link {
+    .header-xs .nav-link {
         padding-right: 3px!important;
         font-size: 20px;
     }
@@ -790,6 +861,17 @@ header .redes a svg:hover{
         background-color: #212529!important;
         height: calc(100vh - 70px);
     }
+    header nav a{ 
+        padding: 0 10px!important;
+    }
+    .pre-footer .logos,
+    .pre-footer .logos2 {
+        display: inline-block;
+    }
+    .pre-footer .logos img,
+    .pre-footer .logos2 img {
+        margin: 0 25px;
+    }
     
 }
 /* X-LARGE */
@@ -799,6 +881,14 @@ header .redes a svg:hover{
     }
     .img .textos p{
         font-size: 15px;
+    }
+    .pre-footer .logos,
+    .pre-footer .logos2 {
+        display: inline-block;
+    }
+    .pre-footer .logos img,
+    .pre-footer .logos2 img {
+        margin: 0 25px;
     }
 }
 
