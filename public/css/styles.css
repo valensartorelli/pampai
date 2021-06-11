@@ -447,14 +447,26 @@ header .redes a svg:hover{
     text-align: center;
 }
 
-.pre-footer .logos{
-    display: flex;
+.pre-footer .logos {
+    display: inline-block;
     justify-content: center;
     margin-top: 15px;
 }
 
-.pre-footer .logos img{
+.pre-footer .logos2{
+    display: inline-block;
+}
+
+.pre-footer .logos img,
+.pre-footer .logos2 img{
     margin: 0 25px;
+    display: inline-block;
+}
+
+.pre-footer img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .footer{
