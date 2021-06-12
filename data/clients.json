@@ -1,0 +1,19 @@
+[
+    {
+        "id": "paseo-aldrey",
+        "title": "Paseo Aldrey",
+        "city": "Mar del Plata",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["paseo-aldrey1.jpeg"]
+    },
+    {
+        "id": "test",
+        "title": "Esto es una prueba",
+        "city": "Mar del Plata"
+    },
+    {
+        "id": "vale",
+        "title": "Super",
+        "city": "Mar del Plata"
+    }
+]

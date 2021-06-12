@@ -1,7 +1,7 @@
 // Gestor del modelo
 const jsonDB = require('../model/jsonDatabase');
 // Manejar metodos del producto
-const clientModel = jsonDB('datosClientes');
+const clientModel = jsonDB('clients');
 
 let clientesController = {
     index: (req, res) => {

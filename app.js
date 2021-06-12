@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const path = require('path');
 const puerto = process.env.PORT; 
 
 // Gerentes de ruteo
@@ -8,8 +7,7 @@ const homeRoutes = require('./routes/homeRoutes');
 const clientesRoutes = require('./routes/clientesRoutes');
 
 // Ruta publica
-const publicPath = path.resolve(__dirname, './public') ;
-app.use(express.static(publicPath));
+app.use(express.static('public'));
 
 // Seteo de archivos ejs
 app.set('view engine', 'ejs');

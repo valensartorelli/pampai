@@ -433,6 +433,30 @@ header .redes a svg:hover{
     width: 85%;
 }
 
+/* CAROUSEL CLIENTES */
+#carouselClientes .carousel-inner .carousel-item img{
+    height: 100vh;
+    width: auto;
+}
+
+#detalleCliente header{
+    background-color: rgba(0,0,0,0.45);
+}
+
+#p_404{
+    background-color: black;
+    text-align: center;
+}
+#p_404 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#p_404 div img{
+    width: 600px;
+}
+
 /* FOOTER */
 .pre-footer{
     background-color: #ffffff;
