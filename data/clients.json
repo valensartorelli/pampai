@@ -1,19 +1,56 @@
 [
     {
-        "id": "paseo-aldrey",
+        "id": 0,
+        "url": "paseo-aldrey",
         "title": "Paseo Aldrey",
         "city": "Mar del Plata",
         "logo": "logo-paseo-aldrey.png",
-        "images": ["paseo-aldrey1.jpeg"]
+        "images": ["paseo-aldrey1.jpg", "test1.jpg", "test2.jpg"],
+        "cover": "/images/clientes/paseo-aldrey/presentacion.jpg"
     },
     {
-        "id": "test",
-        "title": "Esto es una prueba",
-        "city": "Mar del Plata"
+        "id": 1,
+        "url": "test-1",
+        "title": "Cliente 1",
+        "city": "La Plata",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["test1.jpg", "test2.jpg", "test3.jpg"],
+        "cover": "/images/clientes/test-1/presentacion.jpg"
     },
     {
-        "id": "vale",
-        "title": "Super",
-        "city": "Mar del Plata"
+        "id": 2,
+        "url": "test-2",
+        "title": "Cliente 2",
+        "city": "Rosario",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["test2.jpg", "test3.jpg", "test4.jpg"],
+        "cover": "/images/clientes/test-2/presentacion.jpg"
+    },
+    {
+        "id": 3,
+        "url": "test-3",
+        "title": "Cliente 3",
+        "city": "La Plata",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["test3.jpg", "test4.jpg", "test1.jpg"],
+        "cover": "/images/clientes/test-3/presentacion.jpg"
+    },
+    {
+        "id": 4,
+        "url": "test-4",
+        "title": "Cliente 4",
+        "city": "Mar del Plata",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["test4.jpg", "test1.jpg", "test2.jpg"],
+        "cover": "/images/clientes/test-4/presentacion.jpg"
+    },
+    {
+        "id": 5,
+        "url": "test-5",
+        "title": "Cliente 5",
+        "city": "La Plata",
+        "logo": "logo-paseo-aldrey.png",
+        "images": ["test1.jpg", "test2.jpg", "test3.jpg"],
+        "cover": "/images/clientes/test-5/presentacion.jpg"
     }
 ]

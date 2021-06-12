@@ -21,10 +21,10 @@
 <body id="detalleCliente">
     <header>
         <div class="container">
-            <a href="">
-                Volver
+            <a href="/clientes" class="volver">
+              <i class="fas fa-chevron-left"></i> Volver
             </a>
-            <img src="/images/clientes/<%= clients.id %>/<%= clients.logo %>" alt="<%= clients.title %>" width="130">
+            <img src="/images/clientes/<%= url %>/<%= clients.logo %>" alt="<%= clients.title %>" width="130">
         </div>
     </header>
     <div id="carouselClientes" class="carousel slide" data-bs-ride="carousel">
@@ -34,15 +34,14 @@
           <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/clientes/<%= clients.id %>/<%= clients.images[0] %>" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/images/clientes/paseo-aldrey/paseo-aldrey1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/images/clientes/paseo-aldrey/paseo-aldrey1.jpeg" class="d-block w-100" alt="...">
-          </div>
+
+          <% for(let i=0; i < todos[i].images.length; i++) { %>
+            <div class="carousel-item <%= i == 0 ? 'active' : null %>">
+              
+                <img src="/images/clientes/<%= url %>/<%= todos[id].images[i] %>" class="d-block w-100" alt="<%= todos[id].title %>">
+                <%= console.log(url) %>
+            </div>
+          <% } %>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselClientes" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

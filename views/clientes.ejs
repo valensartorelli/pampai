@@ -11,60 +11,21 @@
                 <h1>NUESTROS CLIENTES.</h1>
             </div>
         </main>
+        
         <section>
             <div class="clientes">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 1" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 2" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 3" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 4" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 5" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="">
-                                <img src="images/clientes/cliente1.jpg" alt="Cliente 6" width="100%">
-                                <div class="transparencia"></div>
-                                <img src="images/clientes/logo-paseo-aldrey.png" alt="Logo Paseo Aldrey" class="logo-cliente">
-                                <h6>Paseo Aldrey - Mar del Plata</h6>
-                            </a>
-                        </div>
+                        <% todos.forEach(client => { %>
+                            <div class="col-4 sop-cliente">
+                                <a href="/clientes/<%= client.id %>" title="<%= client.title %> por Pampa Ingenieria">
+                                    <img src="<%= client.cover %>" alt="<%= client.title %>" width="100%">
+                                    <div class="transparencia"></div>
+                                    <img src="images/clientes/<%= client.url %>/<%= client.logo %>" alt="Logo <%= client.title %>" class="logo-cliente">
+                                    <h6><%= client.title %> - <%= client.city %></h6>
+                                </a>
+                            </div>
+                        <% }) %>
                     </div>
                 </div>
             </div>

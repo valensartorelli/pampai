@@ -442,6 +442,18 @@ header .redes a svg:hover{
 #detalleCliente header{
     background-color: rgba(0,0,0,0.45);
 }
+#detalleCliente .volver{
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.025em;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.clientes .sop-cliente{
+    margin-bottom: 25px;
+}
 
 #p_404{
     background-color: black;
