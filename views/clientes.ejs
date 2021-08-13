@@ -19,7 +19,7 @@
                         <% todos.forEach(client => { %>
                             <div class="col-4 sop-cliente">
                                 <a href="/clientes/<%= client.id %>" title="<%= client.title %> por Pampa Ingenieria">
-                                    <img src="<%= client.cover %>" alt="<%= client.title %>" width="100%">
+                                    <img src="<%= client.cover %>" alt="<%= client.title %>" width="100%" class="portada">
                                     <div class="transparencia"></div>
                                     <img src="images/clientes/<%= client.url %>/<%= client.logo %>" alt="Logo <%= client.title %>" class="logo-cliente">
                                     <h6><%= client.title %> - <%= client.city %></h6>

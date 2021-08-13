@@ -1,56 +1,65 @@
 [
     {
         "id": 0,
+        "url": "banco-provincia",
+        "title": "Banco Provincia",
+        "city": "Ezeiza",
+        "logo": "logo-banco-provincia.png",
+        "images": ["banco-provincia1.jpg", "banco-provincia2.jpg", "banco-provincia3.jpg"],
+        "cover": "/images/clientes/banco-provincia/banco-provincia-portada.jpg"
+    },
+    {
+        "id": 1,
+        "url": "cafe-martinez",
+        "title": "Café Martinez",
+        "city": "La Plata",
+        "logo": "logo-cafe-martinez.png",
+        "images": ["cafe-martinez1.jpg", "cafe-martinez2.jpg", "cafe-martinez3.jpg", "cafe-martinez4.jpg"],
+        "cover": "/images/clientes/cafe-martinez/cafe-martinez-portada.jpg"
+    },
+    {
+        "id": 2,
+        "url": "canvas-barracas",
+        "title": "Canvas Barracas",
+        "city": "CABA",
+        "logo": "logo-newland.png",
+        "images": ["canvas-barracas1.jpg", "canvas-barracas2.jpg", "canvas-barracas3.jpg", "canvas-barracas4.jpg", "canvas-barracas5.jpg", "canvas-barracas6.jpg", "canvas-barracas7.jpg", "canvas-barracas8.jpg"],
+        "cover": "/images/clientes/canvas-barracas/canvas-barracas-portada.jpg"
+    },
+    {
+        "id": 3,
+        "url": "complejo-mitre",
+        "title": "Complejo Mitre",
+        "city": "Ezeiza",
+        "logo": "logo-complejo-mitre.png",
+        "images": ["complejo-mitre1.jpg", "complejo-mitre2.jpg", "complejo-mitre3.jpg", "complejo-mitre4.jpg", "complejo-mitre5.jpg", "complejo-mitre6.jpg"],
+        "cover": "/images/clientes/complejo-mitre/complejo-mitre-portada.jpg"
+    },
+    {
+        "id": 4,
+        "url": "las-toscas-office",
+        "title": "Las Toscas Office",
+        "city": "Canning",
+        "logo": "logo-las-toscas-office.png",
+        "images": ["las-toscas-office1.jpg", "las-toscas-office2.jpg"],
+        "cover": "/images/clientes/las-toscas-office/las-toscas-office-portada.jpg"
+    },
+    {
+        "id": 5,
+        "url": "las-toscas-shopping",
+        "title": "Las Toscas Shopping",
+        "city": "Canning",
+        "logo": "logo-las-toscas.png",
+        "images": ["las-toscas-shopping1.jpg", "las-toscas-shopping2.jpg", "las-toscas-shopping3.jpg", "las-toscas-shopping4.jpg"],
+        "cover": "/images/clientes/las-toscas-shopping/las-toscas-shopping-portada.jpg"
+    },
+    {
+        "id": 6,
         "url": "paseo-aldrey",
         "title": "Paseo Aldrey",
         "city": "Mar del Plata",
         "logo": "logo-paseo-aldrey.png",
-        "images": ["paseo-aldrey1.jpg", "test1.jpg", "test2.jpg"],
-        "cover": "/images/clientes/paseo-aldrey/presentacion.jpg"
-    },
-    {
-        "id": 1,
-        "url": "test-1",
-        "title": "Cliente 1",
-        "city": "La Plata",
-        "logo": "logo-paseo-aldrey.png",
-        "images": ["test1.jpg", "test2.jpg", "test3.jpg"],
-        "cover": "/images/clientes/test-1/presentacion.jpg"
-    },
-    {
-        "id": 2,
-        "url": "test-2",
-        "title": "Cliente 2",
-        "city": "Rosario",
-        "logo": "logo-paseo-aldrey.png",
-        "images": ["test2.jpg", "test3.jpg", "test4.jpg"],
-        "cover": "/images/clientes/test-2/presentacion.jpg"
-    },
-    {
-        "id": 3,
-        "url": "test-3",
-        "title": "Cliente 3",
-        "city": "La Plata",
-        "logo": "logo-paseo-aldrey.png",
-        "images": ["test3.jpg", "test4.jpg", "test1.jpg"],
-        "cover": "/images/clientes/test-3/presentacion.jpg"
-    },
-    {
-        "id": 4,
-        "url": "test-4",
-        "title": "Cliente 4",
-        "city": "Mar del Plata",
-        "logo": "logo-paseo-aldrey.png",
-        "images": ["test4.jpg", "test1.jpg", "test2.jpg"],
-        "cover": "/images/clientes/test-4/presentacion.jpg"
-    },
-    {
-        "id": 5,
-        "url": "test-5",
-        "title": "Cliente 5",
-        "city": "La Plata",
-        "logo": "logo-paseo-aldrey.png",
-        "images": ["test1.jpg", "test2.jpg", "test3.jpg"],
-        "cover": "/images/clientes/test-5/presentacion.jpg"
+        "images": ["paseo-aldrey1.jpg", "paseo-aldrey2.jpg", "paseo-aldrey3.jpg", "paseo-aldrey4.jpg", "paseo-aldrey5.jpg", "paseo-aldrey6.jpg", "paseo-aldrey7.jpg", "paseo-aldrey8.jpg", "paseo-aldrey9.jpg", "paseo-aldrey10.jpg", "paseo-aldrey11.jpg", "paseo-aldrey12.jpg"],
+        "cover": "/images/clientes/paseo-aldrey/paseo-aldrey-portada.jpg"
     }
 ]

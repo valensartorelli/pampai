@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/48dd8da1b9.js" crossorigin="anonymous"></script>
     <link href="js/bootstrap.js">
     <title>
-        <%= clients.title %>
+        <%= clients.title %> | Pampa Ingeniería
     </title>
 </head>
 
@@ -29,17 +29,15 @@
     </header>
     <div id="carouselClientes" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <% for(let i=0; i < (todos[id].images.length); i++) { %>
+            <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="<%= i %>" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <% } %>
         </div>
         <div class="carousel-inner">
 
-          <% for(let i=0; i < todos[i].images.length; i++) { %>
+          <% for(let i=0; i < todos[id].images.length; i++) { %>
             <div class="carousel-item <%= i == 0 ? 'active' : null %>">
-              
                 <img src="/images/clientes/<%= url %>/<%= todos[id].images[i] %>" class="d-block w-100" alt="<%= todos[id].title %>">
-                <%= console.log(url) %>
             </div>
           <% } %>
         </div>

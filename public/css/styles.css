@@ -455,6 +455,19 @@ header .redes a svg:hover{
     margin-bottom: 25px;
 }
 
+.clientes .sop-cliente .portada{
+    filter: grayscale(1);
+    -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+}
+
+.clientes .sop-cliente:hover .portada{
+    filter: grayscale(0);
+}
+
 #p_404{
     background-color: black;
     text-align: center;
@@ -474,6 +487,28 @@ header .redes a svg:hover{
     background-color: #ffffff;
     padding: 60px 0;
     text-align: center;
+}
+
+.pre-footer .whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+}
+
+.pre-footer .whatsapp a{
+    display: block;
+    background: #b8cc4f;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.pre-footer .whatsapp i{
+    font-size: 65px;
+    color: white;
+    vertical-align: top;
 }
 
 .pre-footer p{
@@ -942,7 +977,7 @@ header .redes a svg:hover{
 
 @media screen and (min-width:1700px){
     .img .textos{
-        width: 25%;
+        width: 32%;
     }
     .img .textos p {
         font-size: 16px;
@@ -960,5 +995,11 @@ header .redes a svg:hover{
     }
     .modulo-qs {
         padding: 60px 0;
+    }
+}
+
+@media screen and (min-width:1800px){
+    .img .textos{
+        width: 28%;
     }
 }
