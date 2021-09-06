@@ -17,6 +17,6 @@ app.use('/', homeRoutes);
 app.use('/clientes', clientesRoutes);
 
 // Corro el servidor
-app.listen(puerto || 3000, () => {
-    console.log('El servidor esta corriendo en el puerto 3000');
+app.listen(puerto || 2000, () => {
+    console.log('El servidor esta corriendo en el puerto 2000');
 });
